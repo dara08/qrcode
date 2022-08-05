@@ -1,0 +1,94 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700 */
+
+body {
+    background-color: #caf0f8;
+    
+
+}
+
+.container {
+    width: 20%;
+    margin: auto;
+    margin-top: 5%;
+    padding: 1%;
+    /* padding-right: 1%; */
+    background-color: #ffff;
+    border-radius: 20px;
+
+}  
+img {
+    width: 100%;
+    padding: 0;
+    border-radius: 20px;
+}
+@font-face {
+    font-family: Outfit;
+    src: url(https://fonts.google.com/specimen/Outfit);
+}
+.p1{
+    font-family: 'Outfit';
+    text-align: center;
+    font-weight: 700;
+}
+
+.p2{
+    font-family: 'Outfit';
+    text-align: center;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%)
+}
+
+.attribution {
+     font-size: 11px; text-align: center;
+     }
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+@media screen and (min-width: 1440px) {
+    .full-width-container {
+    margin: auto;
+    width: 90%;
+    }
+}
+
+
+@media only screen and (min-width:1440px) {
+    /* For tablets: */
+    body {
+        margin: auto;
+        width: 100%;
+    }
+  }
+  @media only screen and (max-width:375px) {
+    body {
+        margin: auto;
+        width: 100%;
+    }
+  }
